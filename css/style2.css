@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.7) 0 4px 30px -4px, rgba(0, 0, 0, 0.02) 0 -6px 13px 0;
+    width: 460px;
+    border-radius: 40px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    box-sizing: border-box;
+}
+.wrap {
+    background: linear-gradient(to bottom, #fff, #eee);
+    height: 686px;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > h1 {
+    font-size: 18px;
+}
+.menu-btn,
+.search-btn {
+    padding: 0 14px;
+}
+.menu-btn i,
+.search-btn i,
+.footer__icon i {
+    font-size: 16px;
+    color: #777;
+}
+.contents-top,
+.contents-bottom {
+    margin-top: 20px;
+}
+
+/* contents */
+.contents__top-text {
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.contents__top-text .contents__top-left,
+.contents__top-text .contents__top-right,
+.contents-bottom .contents__bottom-text {
+    font-size: 16px;
+}
+.contents__top-text .contents__top-right {
+    font-weight: bold;
+    color: #ff8ba9;
+}
+.contents__top-part {
+    overflow: hidden;
+}
+.contents__top-part .contents__top-part-contents {
+    float: left;
+    width: 178px;
+    height: 120px;
+    margin: 14px 0 0 14px;
+    border-radius: 20px;
+    background: #ddd;
+    text-align: center;
+}
+.contents__top-part .contents__top-part-contents > span {
+    line-height: 120px;
+    font-size: 16px;
+}
+.contents__bottom-text {
+    padding: 14px;
+    font-weight: bold;
+}
+.contents__bottom-part .contents__bottom-part-contents {
+    width: 372px;
+    height: 60px;
+    margin: 14px;
+    border-radius: 10px;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.contents__bottom-part .contents__bottom-part-contents .contents__bottom-part-contents-left {
+    padding-left: 20px;
+}
+.contents__bottom-part .contents__bottom-part-contents i {
+    padding-right: 20px;
+    font-size: 18px;
+    color: #ff8ba9;
+}
+
+/* footer */
+.footer-icon {
+    padding: 20px 35px;
+}
+.footer__icon {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__icon i:hover {
+    color: #ff7070;
+}
+
